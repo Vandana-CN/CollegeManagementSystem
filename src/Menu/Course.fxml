@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="courseframe" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Menu.CourseController">
+   <children>
+      <JFXButton fx:id="addbutton" alignment="BOTTOM_CENTER" layoutX="158.0" layoutY="133.0" onAction="#addEvent" prefHeight="250.0" prefWidth="260.0" text="Add Course">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="viewbutton" alignment="BOTTOM_CENTER" layoutX="363.0" layoutY="417.0" onAction="#viewEvent" prefHeight="250.0" prefWidth="260.0" text="View Course">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="updatebutton" alignment="BOTTOM_CENTER" layoutX="583.0" layoutY="133.0" onAction="#updateEvent" prefHeight="250.0" prefWidth="260.0" text="Update Course">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="129.0" fitWidth="157.0" layoutX="220.0" layoutY="193.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/addcourse.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="157.0" layoutX="635.0" layoutY="193.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/updatecourse.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="129.0" fitWidth="157.0" layoutX="415.0" layoutY="478.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/viewcourse.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

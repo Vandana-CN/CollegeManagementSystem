@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="863.0" prefWidth="1041.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Student.AddstudentController">
+   <children>
+      <JFXTextField fx:id="fname" layoutX="118.0" layoutY="95.0" prefHeight="31.0" prefWidth="187.0" promptText="First Name" />
+      <JFXTextField fx:id="mname" layoutX="431.0" layoutY="95.0" prefHeight="31.0" prefWidth="205.0" promptText="Middle Name" />
+      <JFXTextField fx:id="lname" layoutX="758.0" layoutY="95.0" prefHeight="31.0" prefWidth="179.0" promptText="Last Name" />
+      <JFXDatePicker fx:id="dob" layoutX="118.0" layoutY="263.0" prefHeight="31.0" prefWidth="343.0" promptText="Date of Birth" />
+      <JFXComboBox fx:id="gender" layoutX="118.0" layoutY="338.0" prefHeight="31.0" prefWidth="343.0" promptText="Gender" />
+      <JFXComboBox fx:id="department" layoutX="516.0" layoutY="338.0" prefHeight="31.0" prefWidth="423.0" promptText="Department" />
+      <JFXTextArea fx:id="address" layoutX="118.0" layoutY="413.0" prefHeight="71.0" prefWidth="821.0" promptText="Address" />
+      <JFXTextField fx:id="city" layoutX="118.0" layoutY="523.0" prefHeight="31.0" prefWidth="295.0" promptText="City" />
+      <JFXTextField fx:id="state" layoutX="642.0" layoutY="531.0" prefHeight="31.0" prefWidth="295.0" promptText="State" />
+      <JFXTextField fx:id="phone" layoutX="642.0" layoutY="594.0" prefHeight="31.0" prefWidth="295.0" promptText="Phone Number" />
+      <JFXTextField fx:id="emailid" layoutX="118.0" layoutY="669.0" prefHeight="31.0" prefWidth="559.0" promptText="Email id" />
+      <JFXDatePicker fx:id="doj" layoutX="118.0" layoutY="740.0" prefHeight="31.0" prefWidth="295.0" promptText="Date of Joining" />
+      <JFXButton fx:id="addbutton" layoutX="825.0" layoutY="764.0" onAction="#addbuttonAction" prefHeight="50.0" prefWidth="121.0" ripplerFill="BLACK" text="ADD">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXComboBox fx:id="bloodgroup" layoutX="516.0" layoutY="263.0" prefHeight="31.0" prefWidth="423.0" promptText="Blood Group" />
+      <JFXTextField fx:id="pincode" layoutX="118.0" layoutY="594.0" prefHeight="31.0" prefWidth="295.0" promptText="Pincode" />
+      <JFXTextField fx:id="fathersname" layoutX="118.0" layoutY="179.0" prefHeight="31.0" prefWidth="821.0" promptText="First Name" />
+      <JFXButton buttonType="RAISED" layoutX="44.0" layoutY="44.0" onAction="#backbutton" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

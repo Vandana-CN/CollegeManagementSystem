@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Course.ViewcourseController">
+   <children>
+      <JFXButton fx:id="back" buttonType="RAISED" layoutX="24.0" layoutY="24.0" onAction="#backbutton" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="coursetable" layoutX="45.0" layoutY="78.0" prefHeight="690.0" prefWidth="919.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="124.0" text="ID" />
+            <TableColumn fx:id="coursename" prefWidth="533.0" text="COURSE NAME" />
+            <TableColumn fx:id="department" prefWidth="259.0" text="DEPARTMENT" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="778.0" prefWidth="1057.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Menu.HomepageController">
+   <children>
+      <AnchorPane layoutY="-7.0" prefHeight="876.0" prefWidth="223.0" style="-fx-background-color: #424242 grey darken-3;">
+         <children>
+            <Line endX="100.0" layoutX="111.0" layoutY="163.0" startX="-100.0" stroke="WHITE" />
+            <JFXButton fx:id="coursebutton" layoutX="22.0" layoutY="184.0" onAction="#coursebuttonAction" prefHeight="100.0" prefWidth="180.0" text="Course" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="departmentbutton" layoutX="22.0" layoutY="296.0" onAction="#departmentbuttonAction" prefHeight="100.0" prefWidth="180.0" text="Department" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="facultybutton" layoutX="22.0" layoutY="412.0" onAction="#facultybuttonAction" prefHeight="100.0" prefWidth="180.0" text="Faculty" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="studentbutton" layoutX="22.0" layoutY="537.0" onAction="#studentbuttonAction" prefHeight="100.0" prefWidth="180.0" text="Student" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="reportbutton" layoutX="22.0" layoutY="651.0" onAction="#reportbuttonAction" prefHeight="100.0" prefWidth="180.0" text="Report" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXButton>
+            <Label fx:id="username" alignment="CENTER" layoutX="12.0" layoutY="84.0" prefHeight="30.0" prefWidth="201.0" text="Null" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="112.0" layoutY="762.0" startX="-100.0" stroke="WHITE" />
+         </children>
+      </AnchorPane>
+      <Separator layoutX="222.0" layoutY="57.0" prefHeight="1.0" prefWidth="1005.0" />
+      <Pane layoutX="218.0" prefHeight="50.0" prefWidth="1012.0" style="-fx-background-color: #424242;">
+         <children>
+            <Label layoutX="297.0" layoutY="3.0" prefHeight="45.0" prefWidth="419.0" text="College Management System" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="username1" alignment="CENTER" layoutX="922.0" layoutY="10.0" onMouseClicked="#logoutAction" prefHeight="30.0" prefWidth="90.0" text="Log out" textFill="WHITE" underline="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <AnchorPane fx:id="holderpane" layoutX="207.0" layoutY="50.0" prefHeight="800.0" prefWidth="1000.0" />
+   </children>
+</AnchorPane>

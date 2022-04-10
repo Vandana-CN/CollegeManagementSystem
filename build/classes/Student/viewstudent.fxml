@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="Student.ViewstudentController">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="34.0" layoutY="34.0" onAction="#backbutton" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <ScrollPane layoutX="15.0" layoutY="86.0" prefHeight="696.0" prefWidth="970.0">
+         <content>
+            <TableView fx:id="studenttable" prefHeight="676.0" prefWidth="1870.0">
+              <columns>
+                <TableColumn fx:id="id" prefWidth="73.99996948242188" text="ID" />
+                <TableColumn fx:id="name" prefWidth="183.0" text="NAME" />
+                  <TableColumn fx:id="fathersname" prefWidth="151.0" text="FATHERSNAME" />
+                  <TableColumn fx:id="dob" minWidth="0.0" prefWidth="61.0" text="DOB" />
+                  <TableColumn fx:id="gender" minWidth="0.0" prefWidth="66.0" text="GENDER" />
+                  <TableColumn fx:id="bloodgroup" minWidth="6.0" prefWidth="120.0" text="BLOODGROUP" />
+                  <TableColumn fx:id="department" minWidth="0.0" prefWidth="107.0" text="DEPARTMENT" />
+                  <TableColumn fx:id="address" minWidth="0.0" prefWidth="309.0" text="ADDRESS" />
+                  <TableColumn fx:id="city" minWidth="6.0" prefWidth="111.0" text="CITY" />
+                  <TableColumn fx:id="state" prefWidth="125.0" text="STATE" />
+                  <TableColumn fx:id="zipcode" prefWidth="90.0" text="ZIPCODE" />
+                  <TableColumn fx:id="phone" prefWidth="107.0" text="PHONE" />
+                  <TableColumn fx:id="email" prefWidth="287.0" text="EMAIL" />
+                  <TableColumn fx:id="doj" minWidth="0.0" prefWidth="78.0" text="DOJ" />
+              </columns>
+            </TableView>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

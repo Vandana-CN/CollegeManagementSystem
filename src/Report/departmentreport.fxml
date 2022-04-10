@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Report.DepartmentreportController">
+   <children>
+      <JFXButton fx:id="back" buttonType="RAISED" layoutX="24.0" layoutY="24.0" onAction="#backbutton" text="BACK">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <TableView fx:id="departmenttable" layoutX="28.0" layoutY="78.0" prefHeight="699.0" prefWidth="944.0">
+         <columns>
+            <TableColumn fx:id="departmentid" prefWidth="143.0" text="DEPARTMENT ID" />
+            <TableColumn fx:id="departmentname" minWidth="0.0" prefWidth="567.0" text="DEPARTMENT NAME" />
+            <TableColumn fx:id="hod" prefWidth="233.0" text="HOD" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

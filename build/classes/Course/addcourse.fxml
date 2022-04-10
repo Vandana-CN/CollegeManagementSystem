@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="addcourseframe" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Course.AddcourseController">
+   <children>
+      <JFXComboBox fx:id="departmentlist" layoutX="137.0" layoutY="135.0" prefHeight="31.0" prefWidth="751.0" promptText="Select a Department" />
+      <JFXTextField fx:id="coursename" layoutX="137.0" layoutY="360.0" prefHeight="31.0" prefWidth="751.0" promptText="Enter Course Name" />
+      <JFXButton fx:id="addbutton" layoutX="338.0" layoutY="537.0" onAction="#addButtonAction" prefHeight="79.0" prefWidth="350.0" text="Add">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></JFXButton>
+      <JFXComboBox fx:id="yearlist" layoutX="137.0" layoutY="247.0" prefHeight="31.0" prefWidth="253.0" promptText="Select a Year">   
+      </JFXComboBox>
+      <JFXButton buttonType="RAISED" layoutX="14.0" layoutY="14.0" onAction="#backbutton" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

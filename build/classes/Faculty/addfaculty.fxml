@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Faculty.AddfacultyController">
+   <children>
+      <JFXTextField fx:id="fname" layoutX="108.0" layoutY="85.0" prefHeight="31.0" prefWidth="187.0" promptText="First Name" />
+      <JFXTextField fx:id="mname" layoutX="421.0" layoutY="85.0" prefHeight="31.0" prefWidth="205.0" promptText="Middle Name" />
+      <JFXTextField fx:id="lname" layoutX="748.0" layoutY="85.0" prefHeight="31.0" prefWidth="179.0" promptText="Last Name" />
+      <JFXTextArea fx:id="education" layoutX="108.0" layoutY="152.0" prefHeight="50.0" prefWidth="821.0" promptText="Eduactional Qualifications" />
+      <JFXDatePicker fx:id="dob" layoutX="108.0" layoutY="253.0" prefHeight="31.0" prefWidth="343.0" promptText="Date of Birth" />
+      <JFXComboBox fx:id="gender" layoutX="108.0" layoutY="328.0" prefHeight="31.0" prefWidth="343.0" promptText="Gender" />
+      <JFXComboBox fx:id="department" layoutX="506.0" layoutY="328.0" prefHeight="31.0" prefWidth="423.0" promptText="Department" />
+      <JFXTextArea fx:id="address" layoutX="108.0" layoutY="403.0" prefHeight="71.0" prefWidth="821.0" promptText="Address" />
+      <JFXTextField fx:id="city" layoutX="108.0" layoutY="513.0" prefHeight="31.0" prefWidth="295.0" promptText="City" />
+      <JFXTextField fx:id="state" layoutX="632.0" layoutY="521.0" prefHeight="31.0" prefWidth="295.0" promptText="State" />
+      <JFXTextField fx:id="phone" layoutX="632.0" layoutY="584.0" prefHeight="31.0" prefWidth="295.0" promptText="Phone Number" />
+      <JFXTextField fx:id="emailid" layoutX="108.0" layoutY="659.0" prefHeight="31.0" prefWidth="559.0" promptText="Email id" />
+      <JFXDatePicker fx:id="doj" layoutX="108.0" layoutY="730.0" prefHeight="31.0" prefWidth="295.0" promptText="Date of Joining" />
+      <JFXButton fx:id="addbutton" layoutX="815.0" layoutY="754.0" onAction="#addbuttonAction" prefHeight="50.0" prefWidth="121.0" ripplerFill="BLACK" text="ADD">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXComboBox fx:id="bloodgroup" layoutX="506.0" layoutY="253.0" prefHeight="31.0" prefWidth="423.0" promptText="Blood Group" />
+      <JFXTextField fx:id="pincode" layoutX="108.0" layoutY="584.0" prefHeight="31.0" prefWidth="295.0" promptText="Pincode" />
+      <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="24.0" onAction="#backbutton" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

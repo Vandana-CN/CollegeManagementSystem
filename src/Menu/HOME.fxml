@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="homeframe" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Menu.HOMEController">
+   <children>
+      <Label layoutX="27.0" layoutY="327.0" prefHeight="146.0" prefWidth="947.0" text="Welcome to College Management System">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

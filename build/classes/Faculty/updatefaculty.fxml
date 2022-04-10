@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Faculty.UpdatefacultyController">
+   <children>
+      <JFXTextField fx:id="name" editable="false" layoutX="116.0" layoutY="95.0" prefHeight="31.0" prefWidth="821.0" promptText="Last Name" />
+      <JFXTextArea fx:id="education" layoutX="118.0" layoutY="162.0" prefHeight="50.0" prefWidth="821.0" promptText="Eduactional Qualifications" />
+      <JFXTextArea fx:id="address" layoutX="118.0" layoutY="413.0" prefHeight="71.0" prefWidth="821.0" promptText="Address" />
+      <JFXTextField fx:id="city" layoutX="118.0" layoutY="523.0" prefHeight="31.0" prefWidth="295.0" promptText="City" />
+      <JFXTextField fx:id="state" layoutX="642.0" layoutY="531.0" prefHeight="31.0" prefWidth="295.0" promptText="State" />
+      <JFXTextField fx:id="phone" layoutX="642.0" layoutY="594.0" prefHeight="31.0" prefWidth="295.0" promptText="Phone Number" />
+      <JFXTextField fx:id="emailid" layoutX="118.0" layoutY="669.0" prefHeight="31.0" prefWidth="559.0" promptText="Email id" />
+      <JFXButton fx:id="addbutton" layoutX="848.0" layoutY="771.0" onAction="#updatebuttonAction" prefHeight="50.0" prefWidth="121.0" ripplerFill="BLACK" text="UPDATE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="pincode" layoutX="118.0" layoutY="594.0" prefHeight="31.0" prefWidth="295.0" promptText="Pincode" />
+      <JFXTextField fx:id="id" layoutX="118.0" layoutY="23.0" prefHeight="31.0" prefWidth="187.0" promptText="Enter faculty id" />
+      <JFXButton fx:id="find" layoutX="431.0" layoutY="14.0" onAction="#findbuttonAction" prefHeight="50.0" prefWidth="121.0" ripplerFill="BLACK" text="FIND">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="dob" editable="false" layoutX="118.0" layoutY="279.0" prefHeight="31.0" prefWidth="343.0" promptText="DOB" />
+      <JFXTextField fx:id="doj" editable="false" layoutX="118.0" layoutY="740.0" prefHeight="31.0" prefWidth="343.0" promptText="DOJ" />
+      <JFXTextField fx:id="bloodgroup" editable="false" layoutX="594.0" layoutY="352.0" prefHeight="31.0" prefWidth="343.0" promptText="Bloodgroup" />
+      <JFXTextField fx:id="department" editable="false" layoutX="118.0" layoutY="346.0" prefHeight="31.0" prefWidth="343.0" promptText="Department" />
+      <JFXTextField fx:id="gender" editable="false" layoutX="594.0" layoutY="279.0" prefHeight="31.0" prefWidth="343.0" promptText="Gender" />
+      <JFXButton buttonType="RAISED" layoutX="24.0" layoutY="24.0" onAction="#backbutton" text="Back">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
